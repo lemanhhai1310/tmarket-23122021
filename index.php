@@ -1,5 +1,48 @@
 <?php $data["title"] = "Trang chủ"; ?>
 <?php require "template-parts/layouts/header.php"; ?>
+<!--Trở thành giáo viên-->
+<div class="uk-section home__bg">
+    <div class="uk-container">
+        <div class="uk-child-width-1-2@m uk-grid-161-m uk-flex-middle" uk-grid>
+            <div class="uk-flex-last@m">
+                <div class="uk-cover-container">
+                    <img src="images/Rectangle10.png" alt="" uk-cover="">
+                    <canvas width="520" height="761"></canvas>
+                </div>
+            </div>
+            <div>
+                <div class="item__24">
+                    <h3 class="uk-h3 home__title">Bài học 1 thầy kèm 1 trò trong hơn 150 ngôn ngữ</h3>
+                </div>
+                <div class="item__24">
+                    <p class="home__cauhoi__desc">Học với những giáo viên được chứng nhận với các kinh nghiệm được chứng minh</p>
+                    <p class="home__cauhoi__desc">Tìm giáo viên từ trên khắp thế giới chia sẻ ngôn ngữ, tiếng địa phương và văn hóa của họ</p>
+                    <p class="home__cauhoi__desc">Học theo nhịp điệu của bạn mà không cần lo lắng gì về những lịch trình cứng nhắc và học phí cố định</p>
+                    <div><a href="" class="home__bg__link">Trở thành giáo viên</a></div>
+                </div>
+            </div>
+        </div>
+        <div class="uk-child-width-1-2@m uk-grid-161-m uk-flex-middle" uk-grid>
+            <div>
+                <div class="uk-cover-container">
+                    <img src="images/Rectangle10.png" alt="" uk-cover="">
+                    <canvas width="520" height="761"></canvas>
+                </div>
+            </div>
+            <div>
+                <div class="item__24">
+                    <h3 class="uk-h3 home__title">Trở thành giáo viên</h3>
+                </div>
+                <div class="item__24">
+                    <p class="home__cauhoi__desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                    <p class="home__cauhoi__desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                    <div><a href="" class="home__bg__link">Trở thành giáo viên</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--/Trở thành giáo viên-->
 <!--Câu hỏi thường gặp-->
 <div class="uk-section home__cauhoi">
     <div class="uk-container">

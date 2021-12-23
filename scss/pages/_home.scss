@@ -5,6 +5,27 @@
     line-height: (40/32);
     margin: 0;
   }
+  &__bg{
+    background: #FAF8EB;
+    &__link{
+      color: #6EB54D;
+      @extend .fz-16;
+      font-family: $Lexend-Medium;
+      display: flex;
+      align-items: center;
+      &:after{
+        content: "";
+        width: 16px;
+        height: 16px;
+        background-image: url("data:image/svg+xml,%3Csvg width='16' height='16' viewBox='0 0 16 16' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M15.8367 8.39397C15.9412 8.28946 16 8.14575 16 7.99878C16 7.84855 15.9412 7.70811 15.8367 7.6036L11.3395 3.10636C11.1206 2.88754 10.7646 2.88754 10.5458 3.10636C10.327 3.32518 10.327 3.68117 10.5458 3.89999L14.0894 7.43704L0.561747 7.43704C0.251479 7.43704 0 7.68852 0 7.99878C0 8.30905 0.251479 8.55727 0.561747 8.55727L14.0894 8.55727L10.5491 12.1008C10.3303 12.3197 10.3303 12.6757 10.5491 12.8945C10.7679 13.1133 11.1239 13.1133 11.3427 12.8945L15.8367 8.39397Z' fill='%236EB54D'/%3E%3C/svg%3E%0A");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        margin-left: 5px;
+      }
+    }
+  }
+
   &__cauhoi{
     &__desc{
       @extend .fz-16;
