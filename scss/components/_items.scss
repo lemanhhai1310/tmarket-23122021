@@ -1,4 +1,19 @@
 .item{
+  &__34{
+    &:nth-child(n+2){
+      margin-top: 34px;
+    }
+  }
+  &__28{
+    &:nth-child(n+2){
+      margin-top: 28px;
+    }
+  }
+  &__20{
+    &:nth-child(n+2){
+      margin-top: 20px;
+    }
+  }
   &__15{
     &:nth-child(n+2){
       margin-top: 15px;
