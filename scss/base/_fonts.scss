@@ -1,5 +1,73 @@
 /**
  * --------------------------------------------------------------------
+ * Lexend
+ * --------------------------------------------------------------------
+ */
+@font-face{
+  font-family:'Lexend Black';
+  font-display: auto;
+  src:local('Lexend Black'), url('fonts/Lexend/static/Lexend-Black.ttf') format('truetype');
+  font-weight:normal;
+  font-style:normal;
+}
+@font-face{
+  font-family:'Lexend Bold';
+  font-display: auto;
+  src:local('Lexend Bold'), url('fonts/Lexend/static/Lexend-Bold.ttf') format('truetype');
+  font-weight:normal;
+  font-style:normal;
+}
+@font-face{
+  font-family:'Lexend ExtraBold';
+  font-display: auto;
+  src:local('Lexend ExtraBold'), url('fonts/Lexend/static/Lexend-ExtraBold.ttf') format('truetype');
+  font-weight:normal;
+  font-style:normal;
+}
+@font-face{
+  font-family:'Lexend ExtraLight';
+  font-display: auto;
+  src:local('Lexend ExtraLight'), url('fonts/Lexend/static/Lexend-ExtraLight.ttf') format('truetype');
+  font-weight:normal;
+  font-style:normal;
+}
+@font-face{
+  font-family:'Lexend Light';
+  font-display: auto;
+  src:local('Lexend Light'), url('fonts/Lexend/static/Lexend-Light.ttf') format('truetype');
+  font-weight:normal;
+  font-style:normal;
+}
+@font-face{
+  font-family:'Lexend Medium';
+  font-display: auto;
+  src:local('Lexend Medium'), url('fonts/Lexend/static/Lexend-Medium.ttf') format('truetype');
+  font-weight:normal;
+  font-style:normal;
+}
+@font-face{
+  font-family:'Lexend Regular';
+  font-display: auto;
+  src:local('Lexend Regular'), url('fonts/Lexend/static/Lexend-Regular.ttf') format('truetype');
+  font-weight:normal;
+  font-style:normal;
+}
+@font-face{
+  font-family:'Lexend SemiBold';
+  font-display: auto;
+  src:local('Lexend SemiBold'), url('fonts/Lexend/static/Lexend-SemiBold.ttf') format('truetype');
+  font-weight:normal;
+  font-style:normal;
+}
+@font-face{
+  font-family:'Lexend Thin';
+  font-display: auto;
+  src:local('Lexend Thin'), url('fonts/Lexend/static/Lexend-Thin.ttf') format('truetype');
+  font-weight:normal;
+  font-style:normal;
+}
+/**
+ * --------------------------------------------------------------------
  * Arial
  * --------------------------------------------------------------------
  */

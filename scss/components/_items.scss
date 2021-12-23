@@ -1,0 +1,17 @@
+.item{
+  &__15{
+    &:nth-child(n+2){
+      margin-top: 15px;
+    }
+  }
+  &__10{
+    &:nth-child(n+2){
+      margin-top: 10px;
+    }
+  }
+  &__7{
+    &:nth-child(n+2){
+      margin-top: 7px;
+    }
+  }
+}
