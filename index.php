@@ -1,5 +1,40 @@
 <?php $data["title"] = "Trang chủ"; ?>
 <?php require "template-parts/layouts/header.php"; ?>
+<!--Câu hỏi thường gặp-->
+<div class="uk-section home__cauhoi">
+    <div class="uk-container">
+        <div class="item__35">
+            <div class="item__20">
+                <h3 class="uk-h3 home__title uk-text-center">Câu hỏi thường gặp</h3>
+            </div>
+            <div class="item__20">
+                <div class="uk-flex-center" uk-grid>
+                    <div class="uk-width-1-3@m">
+                        <div class="uk-text-center home__cauhoi__desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="item__35">
+            <div class="uk-child-width-1-2@m" uk-grid>
+                <?php for ($i=0;$i<=5;$i++): ?>
+                <div>
+                    <div class="home__cauhoi__box">
+                        <div class="item__9">
+                            <h4 class="uk-h4 home__cauhoi__box__title">Lorem Ipsum is simply dummy text?</h4>
+                        </div>
+                        <div class="item__9">
+                            <div class="home__cauhoi__desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</div>
+                        </div>
+                    </div>
+                </div>
+                <?php endfor; ?>
+            </div>
+        </div>
+    </div>
+</div>
+<!--/Câu hỏi thường gặp-->
+
 <!--Góp ý về chúng tôi-->
 <div class="uk-section home__gopy">
     <div class="uk-container">
