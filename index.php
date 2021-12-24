@@ -38,7 +38,7 @@
 <!--/Banner-->
 
 <!--Hướng  dân sử dụng-->
-<div class="uk-section">
+<div class="uk-section home__block04">
     <div class="uk-container">
         <div class="item__40">
             <div class="item__60">
@@ -50,23 +50,23 @@
                     $data = array(
                         array(
                             'src' => 'images/Studying-rafiki1.png',
-                            'txt' => 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+                            'txt' => 'Tiến Dũng và Đình Trọng trở lại trước bán kết lượt về',
                         ),
                         array(
                             'src' => 'images/Studying-amico1.png',
-                            'txt' => 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+                            'txt' => 'Tuyển Việt Nam được động viên sau trận thua Thái Lan',
                         ),
                         array(
                             'src' => 'images/KidsStudyingfromHome-rafiki1.png',
-                            'txt' => 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+                            'txt' => 'Ảnh vệ tinh cho thấy Nga tăng cường quân ở biên giới Ukraine',
                         ),
                         array(
                             'src' => 'images/Ecoeducation-amico1.png',
-                            'txt' => 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+                            'txt' => 'Mang Thánh ca Giáng sinh đến khán giả ở TP.HCM',
                         ),
                         array(
                             'src' => 'images/DataTrends-rafiki1.png',
-                            'txt' => 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+                            'txt' => 'Top 3 Miss World Việt Nam có thời gian đương nhiệm lâu nhất',
                         ),
                     );
                     foreach ($data as $k=>$v): ?>
@@ -77,7 +77,10 @@
                                     <canvas width="136" height="136"></canvas>
                                 </div>
                             </div>
-                            <div class="home__block04__polygon"></div>
+                            <div class="uk-position-relative">
+                                <div class="home__block04__polygon"></div>
+                                <div class="home__block04__box1 uk-position-cover"></div>
+                            </div>
                             <div class="home__block04__box uk-flex <?= ($k%2==0)?'':'uk-flex-bottom' ?>">
                                 <div class="uk-flex-center" uk-grid>
                                     <div class="uk-width-4-5@m">
@@ -113,7 +116,7 @@
                                         <a href="" class="uk-button uk-button-default home__block02__btn home__block02__btn--c1"><span>Xem chi tiết </span></a>
                                     </div>
                                     <div>
-                                        <a href="" class="uk-button uk-button-primary home__block02__btn home__block02__btn--c2"><span>Xem video</span></a>
+                                        <a href="#modal-media-youtube" uk-toggle class="uk-button uk-button-primary home__block02__btn home__block02__btn--c2"><span>Xem video</span></a>
                                     </div>
                                 </div>
                             </div>
@@ -135,7 +138,7 @@
                                         <a href="" class="uk-button uk-button-default home__block02__btn home__block02__btn--c1"><span>Xem chi tiết </span></a>
                                     </div>
                                     <div>
-                                        <a href="" class="uk-button uk-button-primary home__block02__btn home__block02__btn--c2"><span>Xem video</span></a>
+                                        <a href="#modal-media-youtube" uk-toggle class="uk-button uk-button-primary home__block02__btn home__block02__btn--c2"><span>Xem video</span></a>
                                     </div>
                                 </div>
                             </div>
@@ -147,6 +150,13 @@
     </div>
 </div>
 <!--/Hướng  dân sử dụng-->
+
+<div id="modal-media-youtube" class="uk-flex-top" uk-modal>
+    <div class="uk-modal-dialog uk-modal-dialog-m1120 uk-margin-auto-vertical">
+        <button class="uk-modal-close-outside" type="button" uk-close></button>
+        <iframe src="https://www.youtube-nocookie.com/embed/c2pz2mlSfXA" width="1920" height="1080" frameborder="0" uk-video uk-responsive></iframe>
+    </div>
+</div>
 
 <!--Về chúng tôi-->
 <div class="uk-section home__about home__bg">
@@ -329,7 +339,7 @@
 <!--/Câu hỏi thường gặp-->
 
 <!--Góp ý về chúng tôi-->
-<div class="uk-section home__gopy">
+<div class="uk-section home__gopy uk-visible@m">
     <div class="uk-container">
         <div class="uk-child-width-1-2@m uk-grid-65-m uk-flex-middle" uk-grid>
             <div class="uk-flex-last@m">

@@ -1,0 +1,11 @@
+.uk{
+  &-modal{
+    background: rgba(0, 0, 0, 0.4);
+    &-dialog{
+      $x:1120;
+      &-m#{$x}{
+        width: #{$x}px;
+      }
+    }
+  }
+}

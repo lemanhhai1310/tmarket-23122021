@@ -39,7 +39,48 @@
                     <li><a href="#">Hướng dẫn</a></li>
                 </ul>
                 <div class="uk-navbar-item uk-visible@m">
-
+                    <div class="header__lang" style="--background: url('images/vi_flag.png')">
+                        <span>Tiếng Việt - Vnđ</span>
+                        <span class="uk-position-center-right" uk-icon="icon: chevron-down"></span>
+                    </div>
+                    <div class="header__lang__dropdown uk-form-stacked" uk-dropdown="mode: hover;pos: bottom-center;">
+                        <div class="header__lang__dropdown__item">
+                            <label class="uk-form-label header__lang__dropdown__label" for="form-stacked-text">Ngôn ngữ</label>
+                            <div class="uk-form-controls">
+                                <div class="uk-width-1-1" uk-form-custom="target: > * > span:first-child">
+                                    <select>
+                                        <option value="">Tiếng Việt</option>
+                                        <option value="1">Option 01</option>
+                                        <option value="2">Option 02</option>
+                                        <option value="3">Option 03</option>
+                                        <option value="4">Option 04</option>
+                                    </select>
+                                    <button style="--background: url('images/vi_flag.png')" class="header__lang__dropdown__btnSelect header__lang__dropdown__btnSelect--lang uk-width-1-1 uk-button uk-button-default" type="button" tabindex="-1">
+                                        <span></span>
+                                        <span class="uk-position-center-right" uk-icon="icon: chevron-down"></span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="header__lang__dropdown__item">
+                            <label class="uk-form-label header__lang__dropdown__label" for="form-stacked-text">Tiền tệ</label>
+                            <div class="uk-form-controls">
+                                <div class="uk-width-1-1" uk-form-custom="target: > * > span:first-child">
+                                    <select>
+                                        <option value="">VNĐ</option>
+                                        <option value="1">Option 01</option>
+                                        <option value="2">Option 02</option>
+                                        <option value="3">Option 03</option>
+                                        <option value="4">Option 04</option>
+                                    </select>
+                                    <button style="--background: url('images/vi_flag.png')" class="header__lang__dropdown__btnSelect uk-width-1-1 uk-button uk-button-default" type="button" tabindex="-1">
+                                        <span></span>
+                                        <span class="uk-position-center-right" uk-icon="icon: chevron-down"></span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <a class="uk-navbar-item header__acc uk-visible@m">
                     Đăng nhập

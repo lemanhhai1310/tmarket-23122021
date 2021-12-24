@@ -16,6 +16,13 @@
   &__#{$x}{
     &:nth-child(n+2){
       margin-top: #{$x}px;
+
+      .home__block04 &{
+        margin-top: 0px;
+        @include media-breakpoint-up('m'){
+          margin-top: #{$x}px;
+        }
+      }
     }
   }
   $x:47;
@@ -55,6 +62,13 @@
   &__#{$x}{
     &:nth-child(n+2){
       margin-top: #{$x}px;
+
+      .home__block04 &{
+        margin-top: 0px;
+        @include media-breakpoint-up('m'){
+          margin-top: #{$x}px;
+        }
+      }
     }
   }
   $x:38;
