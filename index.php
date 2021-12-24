@@ -1,6 +1,37 @@
 <?php $data["title"] = "Trang chủ"; ?>
 <?php require "template-parts/layouts/header.php"; ?>
-<!---->
+
+<!--Cảm thấy yêu mến việc học,Chiến thắng được 3 tháng bài học!-->
+<div class="uk-section-small home__block03" data-src="images/3696-Converted1.png" uk-img>
+    <div class="uk-container">
+        <div class="home__block03__txt">Cảm thấy yêu mến việc học,Chiến thắng được 3 tháng bài học!</div>
+    </div>
+</div>
+<!--/Cảm thấy yêu mến việc học,Chiến thắng được 3 tháng bài học!-->
+
+<div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slideshow="min-height: 300; max-height: 800">
+
+    <ul class="uk-slideshow-items">
+        <li>
+            <img src="images/Group3.png" alt="" uk-cover>
+        </li>
+        <li>
+            <img src="images/photo.jpg" alt="" uk-cover>
+        </li>
+        <li>
+            <img src="images/dark.jpg" alt="" uk-cover>
+        </li>
+        <li>
+            <img src="images/light.jpg" alt="" uk-cover>
+        </li>
+    </ul>
+
+    <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
+    <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
+
+</div>
+
+<!--Hướng  dân sử dụng-->
 <div class="uk-section">
     <div class="uk-container">
         <div class="item__40">
@@ -66,7 +97,7 @@
         </div>
     </div>
 </div>
-<!--/-->
+<!--/Hướng  dân sử dụng-->
 
 <!--Về chúng tôi-->
 <div class="uk-section home__about home__bg">

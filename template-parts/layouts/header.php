@@ -22,3 +22,37 @@
 <?php require "template-parts/commons/facebook_chat.php"; ?>
 <!--app-->
 <div id="app" class="uk-height-viewport uk-offcanvas-content uk-overflow-hidden uk-position-relative">
+<div class="header uk-background-default" uk-sticky>
+    <div class="uk-container uk-padding-remove">
+        <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
+
+            <div class="uk-navbar-left">
+                <a href="" class="uk-navbar-item uk-logo"><img src="images/logo-market2.png" alt=""></a>
+            </div>
+
+            <div class="uk-navbar-right">
+
+                <ul class="uk-navbar-nav uk-visible@m">
+                    <li class="uk-active"><a href="#">Giới thiệu</a></li>
+                    <li><a href="#">Tìm giáo viên</a></li>
+                    <li><a href="#">Trở thành giáo viên</a></li>
+                    <li><a href="#">Hướng dẫn</a></li>
+                </ul>
+                <div class="uk-navbar-item uk-visible@m">
+
+                </div>
+                <a class="uk-navbar-item header__acc uk-visible@m">
+                    Đăng nhập
+                </a>
+                <a class="uk-navbar-item header__acc uk-visible@m">
+                    Đăng ký
+                </a>
+                <a href="" class="uk-navbar-item uk-hidden@m">
+                    <div class="header__iconMenu"></div>
+                </a>
+
+            </div>
+
+        </nav>
+    </div>
+</div>
