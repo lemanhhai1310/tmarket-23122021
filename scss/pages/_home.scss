@@ -5,6 +5,28 @@
     line-height: (40/32);
     margin: 0;
   }
+  &__about{
+    &__box1{
+      &__txt1{
+        color: #6EB54D;
+        line-height: (100/80);
+        font-family: $Lexend-SemiBold;
+        @extend .fz-80;
+        @include media-breakpoint-down('s'){
+          font-size: 24px !important;
+        }
+      }
+      &__txt2{
+        text-transform: uppercase;
+        color: #878787;
+        @extend .fz-20;
+        line-height: (25/20);
+        @include media-breakpoint-down('s'){
+          font-size: 14px !important;
+        }
+      }
+    }
+  }
   &__muonhoc{
     &__grid{
       width: max-content;

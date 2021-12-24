@@ -1,5 +1,46 @@
 <?php $data["title"] = "Trang chủ"; ?>
 <?php require "template-parts/layouts/header.php"; ?>
+<!--Về chúng tôi-->
+<div class="uk-section home__about home__bg">
+    <div class="uk-container">
+        <div class="item__100">
+            <div class="item__36">
+                <h3 class="uk-h3 home__title uk-text-center uk-text-uppercase">Về chúng tôi</h3>
+            </div>
+            <div class="item__36">
+                <div class="uk-flex-center" uk-grid>
+                    <div class="uk-width-4-5@m">
+                        <div class="home__cauhoi__desc uk-text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="item__100">
+            <div class="uk-child-width-auto uk-flex-center uk-grid-150-m" uk-grid>
+                <div>
+                    <div class="uk-text-center home__about__box1">
+                        <div class="home__about__box1__txt1">40 000 +</div>
+                        <div class="home__about__box1__txt2">Giáo viên</div>
+                    </div>
+                </div>
+                <div>
+                    <div class="uk-text-center home__about__box1">
+                        <div class="home__about__box1__txt1">100 000 +</div>
+                        <div class="home__about__box1__txt2">Học viên</div>
+                    </div>
+                </div>
+                <div>
+                    <div class="uk-text-center home__about__box1">
+                        <div class="home__about__box1__txt1">4</div>
+                        <div class="home__about__box1__txt2">CƠ sở</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--/Về chúng tôi-->
+
 <!--Tôi muốn học ...-->
 <div class="uk-section home__muonhoc">
     <div class="item__47">

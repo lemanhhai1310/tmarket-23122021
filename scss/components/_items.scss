@@ -1,4 +1,17 @@
 .item{
+  $x:100;
+  &__#{$x}{
+    &:nth-child(n+2){
+      margin-top: #{$x}px;
+
+      .home__about &{
+        margin-top: 50px;
+        @include media-breakpoint-up('m'){
+          margin-top: #{$x}px;
+        }
+      }
+    }
+  }
   $x:47;
   &__#{$x}{
     &:nth-child(n+2){
@@ -11,6 +24,12 @@
           margin-top: #{$x}px;
         }
       }
+    }
+  }
+  $x:36;
+  &__#{$x}{
+    &:nth-child(n+2){
+      margin-top: #{$x}px;
     }
   }
   &__35{
