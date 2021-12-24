@@ -1,16 +1,18 @@
 <?php $data["title"] = "Trang chủ"; ?>
 <?php require "template-parts/layouts/header.php"; ?>
 <!--Trở thành giáo viên-->
-<div class="uk-section home__bg">
+<div class="uk-section home__bg home__block01" uk-toggle="cls: uk-section-xlarge; mode: media; media: @m">
     <div class="uk-container">
-        <div class="uk-child-width-1-2@m uk-grid-161-m uk-flex-middle" uk-grid>
-            <div class="uk-flex-last@m">
-                <div class="uk-cover-container">
-                    <img src="images/Rectangle10.png" alt="" uk-cover="">
-                    <canvas width="520" height="761"></canvas>
+        <div class="uk-grid-161-m" uk-grid>
+            <div class="uk-width-auto@m uk-flex-last@m">
+                <div class="uk-position-relative uk-visible@m">
+                    <div class="uk-cover-container home__bg__box1">
+                        <canvas width="506" height="477"></canvas>
+                    </div>
+                    <img class="home__bg__img" src="images/Rectangle8.png" alt="">
                 </div>
             </div>
-            <div>
+            <div class="uk-width-expand">
                 <div class="item__24">
                     <h3 class="uk-h3 home__title">Bài học 1 thầy kèm 1 trò trong hơn 150 ngôn ngữ</h3>
                 </div>
@@ -24,7 +26,7 @@
         </div>
         <div class="uk-child-width-1-2@m uk-grid-161-m uk-flex-middle" uk-grid>
             <div>
-                <div class="uk-cover-container">
+                <div class="uk-cover-container uk-position-z-index">
                     <img src="images/Rectangle10.png" alt="" uk-cover="">
                     <canvas width="520" height="761"></canvas>
                 </div>

@@ -5,8 +5,25 @@
     line-height: (40/32);
     margin: 0;
   }
+  &__block01{
+    @include media-breakpoint-up('m'){
+      padding-bottom: 50px;
+    }
+  }
   &__bg{
     background: #FAF8EB;
+    &__box1{
+      background: #94CD7A;
+      border-radius: 50px;
+    }
+    &__img{
+      position: absolute;
+      bottom: 99px;
+      left: 107px;
+      height: 555px;
+      width: 732px;
+      max-width: initial;
+    }
     &__link{
       color: #6EB54D;
       @extend .fz-16;
@@ -27,6 +44,13 @@
   }
 
   &__cauhoi{
+    background-color: #fff;
+    @include media-breakpoint-up('m'){
+      padding-top: 140px;
+      margin-top: -147px;
+      position: relative;
+      //z-index: 100;
+    }
     &__desc{
       @extend .fz-16;
       line-height: (20/16);
