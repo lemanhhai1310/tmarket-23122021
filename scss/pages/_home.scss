@@ -41,6 +41,46 @@
     &__column{
 
     }
+    &__box{
+      min-height: 100px;
+      @include media-breakpoint-up('m'){
+        min-height: 145px;
+      }
+      $x:15px;
+      padding-top: #{$x};
+      padding-bottom: #{$x};
+    }
+    &__boxBg{
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain;
+      @include media-breakpoint-up('m'){
+        background-size: inherit;
+      }
+      .home__block04__column:nth-child(1) &{
+        background-color: #F1C43D;
+      }
+      .home__block04__column:nth-child(2) &{
+        background-color: #90C8CC;
+      }
+      .home__block04__column:nth-child(3) &{
+        background-color: #EC6D5D;
+      }
+      .home__block04__column:nth-child(4) &{
+        background-color: #A4C7A2;
+      }
+      .home__block04__column:nth-child(5) &{
+        background-color: #6F7D92;
+      }
+      canvas{
+        width: 47px;
+        height: 47px;
+        @include media-breakpoint-up('m'){
+          width: 136px;
+          height: 136px;
+        }
+      }
+    }
     &__polygon{
       $x:2px;
       clip-path: polygon(0 0, calc(100% - #{$x}) 0, 100% 50%, calc(100% - #{$x}) 100%, 0 100%, #{$x} 50%);
@@ -266,6 +306,12 @@
       @extend .fz-16;
       line-height: (20/16);
       color: #878787;
+      .home__block04__column &{
+        color: #000;
+        @include media-breakpoint-down('s'){
+          font-size: 10px !important;
+        }
+      }
     }
     &__box{
       padding-left: 50px;

@@ -71,8 +71,20 @@
                     );
                     foreach ($data as $k=>$v): ?>
                     <div class="home__block04__column">
-                        <div class="uk-text-center">
+                        <div class="uk-text-center uk-flex uk-flex-column <?= ($k%2==0)?'':'uk-flex-column-reverse' ?>">
+                            <div class="home__block04__box">
+                                <div class="uk-cover-container home__block04__boxBg uk-display-inline-block uk-border-circle" data-src="<?= $v['src'] ?>" uk-img>
+                                    <canvas width="136" height="136"></canvas>
+                                </div>
+                            </div>
                             <div class="home__block04__polygon"></div>
+                            <div class="home__block04__box uk-flex <?= ($k%2==0)?'':'uk-flex-bottom' ?>">
+                                <div class="uk-flex-center" uk-grid>
+                                    <div class="uk-width-4-5@m">
+                                        <div class="home__cauhoi__desc"><?= $v['txt'] ?></div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <?php endforeach; ?>
