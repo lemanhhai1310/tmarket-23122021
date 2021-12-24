@@ -45,10 +45,12 @@
       min-height: 100px;
       @include media-breakpoint-up('m'){
         min-height: 145px;
+        padding-top: 40px;
+        padding-bottom: 40px;
       }
-      $x:15px;
-      padding-top: #{$x};
-      padding-bottom: #{$x};
+      padding-top: 15px;
+      padding-bottom: 15px;
+      display: flex;
     }
     &__boxBg{
       background-repeat: no-repeat;
@@ -82,6 +84,25 @@
       }
     }
     &__polygon{
+      &:before{
+        content: "";
+        border-radius: 50%;
+        background-color: #fff;
+        $x:2px;
+        width: #{$x};
+        height: #{$x};
+        @include media-breakpoint-up('m'){
+          $x:6px;
+          width: #{$x};
+          height: #{$x};
+        }
+        display: flex;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+      }
+      position: relative;
       $x:2px;
       clip-path: polygon(0 0, calc(100% - #{$x}) 0, 100% 50%, calc(100% - #{$x}) 100%, 0 100%, #{$x} 50%);
       height: 5px;

@@ -72,7 +72,7 @@
                     foreach ($data as $k=>$v): ?>
                     <div class="home__block04__column">
                         <div class="uk-text-center uk-flex uk-flex-column <?= ($k%2==0)?'':'uk-flex-column-reverse' ?>">
-                            <div class="home__block04__box">
+                            <div class="home__block04__box uk-flex uk-flex-center <?= ($k%2==0)?'uk-flex-bottom':'uk-flex-top' ?>">
                                 <div class="uk-cover-container home__block04__boxBg uk-display-inline-block uk-border-circle" data-src="<?= $v['src'] ?>" uk-img>
                                     <canvas width="136" height="136"></canvas>
                                 </div>
