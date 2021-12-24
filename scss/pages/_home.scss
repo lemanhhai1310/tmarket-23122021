@@ -5,6 +5,53 @@
     line-height: (40/32);
     margin: 0;
   }
+  &__block02{
+    &__title{
+      color: #000000;
+      @extend .fz-16;
+      font-family: $Lexend-SemiBold;
+      line-height: (20/16);
+      position: relative;
+      padding-bottom: 10px;
+      &:after{
+        content: "";
+        background: #65AF54;
+        display: flex;
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 15px;
+        height: 2px;
+      }
+    }
+    &__btn{
+      $x:42px;
+      line-height: calc(#{$x} - 2px);
+      border-radius: 10px;
+      box-sizing: border-box;
+      text-transform: inherit;
+      span{
+
+      }
+      &--c1{
+        background: #FFFFFF;
+        border: 1px solid #65AF54;
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+        span{
+          color: #65AF54;
+        }
+      }
+      &--c2{
+        background: #6EB54D;
+        border: 1px solid #FFFFFF;
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+        span{
+          color: #FFFFFF;
+        }
+      }
+    }
+  }
   &__about{
     &__box1{
       &__txt1{

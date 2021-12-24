@@ -12,6 +12,12 @@
       }
     }
   }
+  $x:60;
+  &__#{$x}{
+    &:nth-child(n+2){
+      margin-top: #{$x}px;
+    }
+  }
   $x:47;
   &__#{$x}{
     &:nth-child(n+2){
@@ -24,6 +30,18 @@
           margin-top: #{$x}px;
         }
       }
+    }
+  }
+  $x:44;
+  &__#{$x}{
+    &:nth-child(n+2){
+      margin-top: #{$x}px;
+    }
+  }
+  $x:40;
+  &__#{$x}{
+    &:nth-child(n+2){
+      margin-top: #{$x}px;
     }
   }
   $x:36;
@@ -60,6 +78,12 @@
   &__15{
     &:nth-child(n+2){
       margin-top: 15px;
+    }
+  }
+  $x:14;
+  &__#{$x}{
+    &:nth-child(n+2){
+      margin-top: #{$x}px;
     }
   }
   &__10{

@@ -1,5 +1,73 @@
 <?php $data["title"] = "Trang chủ"; ?>
 <?php require "template-parts/layouts/header.php"; ?>
+<!---->
+<div class="uk-section">
+    <div class="uk-container">
+        <div class="item__40">
+            <div class="item__60">
+                <h3 class="uk-h3 home__title uk-text-center uk-text-uppercase">Trung tâm ngoại ngữ HP - HP english homestay</h3>
+            </div>
+            <div class="item__60">
+
+            </div>
+        </div>
+        <div class="item__40">
+            <div class="item__44">
+                <h3 class="uk-h3 home__title uk-text-center uk-text-uppercase">Hướng  dân sử dụng</h3>
+            </div>
+            <div class="item__44">
+                <div class="uk-child-width-1-2@m" uk-grid>
+                    <div>
+                        <div class="uk-text-center">
+                            <div class="item__14">
+                                <div class="item__9">
+                                    <div class="home__block02__title">Dành cho học viên</div>
+                                </div>
+                                <div class="item__9">
+                                    <div class="home__cauhoi__desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged</div>
+                                </div>
+                            </div>
+                            <div class="item__14">
+                                <div class="uk-grid-small uk-child-width-auto uk-flex-center" uk-grid>
+                                    <div>
+                                        <a href="" class="uk-button uk-button-default home__block02__btn home__block02__btn--c1"><span>Xem chi tiết </span></a>
+                                    </div>
+                                    <div>
+                                        <a href="" class="uk-button uk-button-primary home__block02__btn home__block02__btn--c2"><span>Xem video</span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="uk-text-center">
+                            <div class="item__14">
+                                <div class="item__9">
+                                    <div class="home__block02__title">Dành cho giáo viên</div>
+                                </div>
+                                <div class="item__9">
+                                    <div class="home__cauhoi__desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged</div>
+                                </div>
+                            </div>
+                            <div class="item__14">
+                                <div class="uk-grid-small uk-child-width-auto uk-flex-center" uk-grid>
+                                    <div>
+                                        <a href="" class="uk-button uk-button-default home__block02__btn home__block02__btn--c1"><span>Xem chi tiết </span></a>
+                                    </div>
+                                    <div>
+                                        <a href="" class="uk-button uk-button-primary home__block02__btn home__block02__btn--c2"><span>Xem video</span></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--/-->
+
 <!--Về chúng tôi-->
 <div class="uk-section home__about home__bg">
     <div class="uk-container">
