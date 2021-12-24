@@ -8,7 +8,7 @@
                 <h3 class="uk-h3 home__title uk-text-center uk-text-uppercase">Trung tâm ngoại ngữ HP - HP english homestay</h3>
             </div>
             <div class="item__60">
-
+                <img class="uk-width-1-1" src="images/Image.png" alt="">
             </div>
         </div>
         <div class="item__40">
