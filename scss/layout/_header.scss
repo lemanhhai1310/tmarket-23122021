@@ -1,4 +1,7 @@
 .header{
+  .uk-container{
+    max-width: calc(1200px + 30px);
+  }
   &.uk-sticky-below{
     box-shadow: 0 5px 15px rgba(0,0,0,.08);
   }
@@ -12,6 +15,7 @@
       >a{
         text-transform: inherit;
         color: #000000;
+        font-family: $Lexend-Regular;
         @extend .fz-16;
         @extend .header__navItem;
       }
@@ -32,6 +36,7 @@
     text-transform: inherit;
     color: #000000;
     @extend .fz-16;
+    font-family: $Lexend-Regular;
   }
   &__navItem{
     min-height: 60px;

@@ -4,6 +4,38 @@
     @extend .fz-32;
     line-height: (40/32);
     margin: 0;
+    font-family: $Lexend-Regular;
+  }
+  &__banner{
+    &__title{
+      color: #000000;
+      @extend .fz-56;
+      line-height: (70/56);
+      @include media-breakpoint-down('s'){
+        font-size: 20px !important;
+      }
+    }
+    &__desc{
+      color: #878787;
+      @extend .fz-22;
+      line-height: (27/22);
+    }
+    &__btn{
+      $x:42px;
+      line-height: calc(#{$x} - 2px);
+      @include media-breakpoint-up('m'){
+        $x:60px;
+        line-height: calc(#{$x} - 2px);
+      }
+      background: #6EB54D;
+      box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.15);
+      border-radius: 10px;
+      span{
+        color: #FFFFFF;
+        @extend .fz-22;
+        //line-height: (27/22);
+      }
+    }
   }
   &__block03{
     text-align: center;

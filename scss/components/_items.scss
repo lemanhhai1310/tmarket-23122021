@@ -32,6 +32,19 @@
       }
     }
   }
+  $x:46;
+  &__#{$x}{
+    &:nth-child(n+2){
+      margin-top: #{$x}px;
+
+      .home__banner &{
+        margin-top: 10px;
+        @include media-breakpoint-up('m'){
+          margin-top: #{$x}px;
+        }
+      }
+    }
+  }
   $x:44;
   &__#{$x}{
     &:nth-child(n+2){
@@ -42,6 +55,18 @@
   &__#{$x}{
     &:nth-child(n+2){
       margin-top: #{$x}px;
+    }
+  }
+  $x:38;
+  &__#{$x}{
+    &:nth-child(n+2){
+      margin-top: #{$x}px;
+      .home__banner &{
+        margin-top: 10px;
+        @include media-breakpoint-up('m'){
+          margin-top: #{$x}px;
+        }
+      }
     }
   }
   $x:36;

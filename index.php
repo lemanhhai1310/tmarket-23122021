@@ -9,27 +9,33 @@
 </div>
 <!--/Cảm thấy yêu mến việc học,Chiến thắng được 3 tháng bài học!-->
 
-<div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slideshow="min-height: 300; max-height: 800">
-
-    <ul class="uk-slideshow-items">
-        <li>
-            <img src="images/Group3.png" alt="" uk-cover>
-        </li>
-        <li>
-            <img src="images/photo.jpg" alt="" uk-cover>
-        </li>
-        <li>
-            <img src="images/dark.jpg" alt="" uk-cover>
-        </li>
-        <li>
-            <img src="images/light.jpg" alt="" uk-cover>
-        </li>
-    </ul>
-
-    <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
-    <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
-
+<!--Banner-->
+<div class="uk-cover-container home__banner">
+    <img src="images/img1.jpg" alt="" uk-cover="">
+    <canvas width="1920" height="800"></canvas>
+    <div class="uk-position-cover uk-flex uk-flex-middle">
+        <div class="uk-width-1-1 uk-section">
+            <div class="uk-container">
+                <div uk-grid>
+                    <div class="uk-width-2-5@m">
+                        <div class="item__46">
+                            <div class="item__38">
+                                <div class="home__banner__title">Teach children English online</div>
+                            </div>
+                            <div class="item__38">
+                                <div class="home__banner__desc">A rewarding job with flexablity and support.</div>
+                            </div>
+                        </div>
+                        <div class="item__46">
+                            <a href="" class="uk-button uk-button-primary home__banner__btn"><span>Tìm giáo viên</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
+<!--/Banner-->
 
 <!--Hướng  dân sử dụng-->
 <div class="uk-section">
@@ -39,7 +45,7 @@
                 <h3 class="uk-h3 home__title uk-text-center uk-text-uppercase">Trung tâm ngoại ngữ HP - HP english homestay</h3>
             </div>
             <div class="item__60">
-                <img class="uk-width-1-1" src="images/Image.png" alt="">
+                
             </div>
         </div>
         <div class="item__40">
