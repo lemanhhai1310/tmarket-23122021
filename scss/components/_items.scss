@@ -1,4 +1,18 @@
 .item{
+  $x:47;
+  &__#{$x}{
+    &:nth-child(n+2){
+      margin-top: #{$x}px;
+
+
+      .home__muonhoc &{
+        margin-top: 10px;
+        @include media-breakpoint-up('m'){
+          margin-top: #{$x}px;
+        }
+      }
+    }
+  }
   &__35{
     &:nth-child(n+2){
       margin-top: 35px;

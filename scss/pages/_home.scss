@@ -5,6 +5,52 @@
     line-height: (40/32);
     margin: 0;
   }
+  &__muonhoc{
+    &__grid{
+      width: max-content;
+    }
+    &__column{
+      &:first-child{
+        margin-left: 15px;
+        @include media-breakpoint-up('m'){
+          margin-left: 0;
+        }
+      }
+      &:last-child{
+        margin-right: 15px;
+        @include media-breakpoint-up('m'){
+          margin-right: 0;
+        }
+      }
+    }
+    &__card{
+      background: #FFFFFF;
+      box-shadow: 0px 4px 20px 5px rgba(0, 0, 0, 0.05);
+      border-radius: 10px;
+      max-width: 250px;
+      @include media-breakpoint-up('m'){
+        max-width: inherit;
+      }
+      &__txt{
+        color: #000000;
+        @extend .fz-18;
+        line-height: (22/18);
+      }
+    }
+    &__overFlow{
+      padding-top: 20px;
+      padding-bottom: 20px;
+      overflow: auto;
+      @include media-breakpoint-up('m'){
+        overflow: inherit;
+        padding-top: 0;
+        padding-bottom: 0;
+      }
+      &::-webkit-scrollbar{
+        display: none;
+      }
+    }
+  }
   &__block01{
     @include media-breakpoint-up('m'){
       padding-bottom: 50px;

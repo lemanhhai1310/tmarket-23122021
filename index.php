@@ -1,5 +1,60 @@
 <?php $data["title"] = "Trang chủ"; ?>
 <?php require "template-parts/layouts/header.php"; ?>
+<!--Tôi muốn học ...-->
+<div class="uk-section home__muonhoc">
+    <div class="item__47">
+        <div class="uk-container">
+            <h3 class="uk-h3 home__title uk-text-center uk-text-uppercase">Tôi muốn học ...</h3>
+        </div>
+    </div>
+    <div class="item__47">
+        <div class="uk-container uk-padding-remove">
+            <div class="home__muonhoc__overFlow">
+                <div class="uk-child-width-1-4@m uk-child-width-auto uk-flex-nowrap uk-grid-match home__muonhoc__grid uk-grid-40-m uk-grid-small" uk-grid>
+                    <?php
+                    $data = array(
+                        array(
+                            'src' => 'images/img1.png',
+                            'txt' => 'Tiếng anh giao tiếp trẻ em',
+                        ),
+                        array(
+                            'src' => 'images/img2.png',
+                            'txt' => 'Tiếng anh giao tiếp người lớn',
+                        ),
+                        array(
+                            'src' => 'images/img3.png',
+                            'txt' => 'Tiếng anh giao tiếp văn phòng',
+                        ),
+                        array(
+                            'src' => 'images/img4.png',
+                            'txt' => 'Khóa học phát âm',
+                        ),
+                    );
+                    foreach ($data as $item): ?>
+                    <div class="home__muonhoc__column">
+                        <div class="uk-card uk-card-default home__muonhoc__card">
+                            <div class="uk-grid-collapse uk-grid-match" uk-grid>
+                                <div class="uk-width-auto">
+                                    <div class="uk-cover-container">
+                                        <img src="<?= $item['src'] ?>" alt="" uk-cover="">
+                                        <canvas width="75" height="75"></canvas>
+                                    </div>
+                                </div>
+                                <div class="uk-width-expand">
+                                    <div class="uk-padding-small">
+                                        <div class="home__muonhoc__card__txt"><?= $item['txt'] ?></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <?php endforeach; ?>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--/Tôi muốn học ...-->
 <!--Trở thành giáo viên-->
 <div class="uk-section home__bg home__block01" uk-toggle="cls: uk-section-xlarge; mode: media; media: @m">
     <div class="uk-container">
