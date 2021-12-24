@@ -9,6 +9,23 @@
     @include media-breakpoint-up('m'){
       padding-bottom: 50px;
     }
+    &__box3{
+      padding-top: 20%;
+    }
+    &__box1{
+      background: #94CD7A;
+      border-radius: 50px;
+      width: 57% !important;
+      padding-top: 55%;
+    }
+    &__box2{
+      position: absolute;
+      border-radius: 50px;
+      top: 0;
+      right: 0;
+      width: 84% !important;
+      padding-top: 63%;
+    }
   }
   &__bg{
     background: #FAF8EB;

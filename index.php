@@ -11,6 +11,10 @@
                     </div>
                     <img class="home__bg__img" src="images/Rectangle8.png" alt="">
                 </div>
+                <div class="uk-hidden@m uk-position-relative home__block01__box3">
+                    <div class="uk-cover-container home__block01__box1 uk-display-inline-block"></div>
+                    <div class="home__block01__box2 uk-background-norepeat uk-background-cover uk-background-center-center" data-src="images/Rectangle8.png" uk-img></div>
+                </div>
             </div>
             <div class="uk-width-expand">
                 <div class="item__24">
