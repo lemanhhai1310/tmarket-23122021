@@ -45,7 +45,38 @@
                 <h3 class="uk-h3 home__title uk-text-center uk-text-uppercase">Trung tâm ngoại ngữ HP - HP english homestay</h3>
             </div>
             <div class="item__60">
-                
+                <div class="uk-child-width-expand uk-grid-collapse" uk-grid>
+                    <?php
+                    $data = array(
+                        array(
+                            'src' => 'images/Studying-rafiki1.png',
+                            'txt' => 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+                        ),
+                        array(
+                            'src' => 'images/Studying-amico1.png',
+                            'txt' => 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+                        ),
+                        array(
+                            'src' => 'images/KidsStudyingfromHome-rafiki1.png',
+                            'txt' => 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+                        ),
+                        array(
+                            'src' => 'images/Ecoeducation-amico1.png',
+                            'txt' => 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+                        ),
+                        array(
+                            'src' => 'images/DataTrends-rafiki1.png',
+                            'txt' => 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+                        ),
+                    );
+                    foreach ($data as $k=>$v): ?>
+                    <div class="home__block04__column">
+                        <div class="uk-text-center">
+                            <div class="home__block04__polygon"></div>
+                        </div>
+                    </div>
+                    <?php endforeach; ?>
+                </div>
             </div>
         </div>
         <div class="item__40">
