@@ -300,18 +300,6 @@
 <div class="uk-section home__bg home__block01" uk-toggle="cls: uk-section-xlarge; mode: media; media: @m">
     <div class="uk-container">
         <div class="uk-grid-161-m" uk-grid>
-            <div class="uk-width-auto@m uk-flex-last@m">
-                <div class="uk-position-relative uk-visible@m">
-                    <div class="uk-cover-container home__bg__box1">
-                        <canvas width="506" height="477"></canvas>
-                    </div>
-                    <img class="home__bg__img" src="images/Rectangle8.png" alt="">
-                </div>
-                <div class="uk-hidden@m uk-position-relative home__block01__box3">
-                    <div class="uk-cover-container home__block01__box1 uk-display-inline-block"></div>
-                    <div class="home__block01__box2 uk-background-norepeat uk-background-cover uk-background-center-center" data-src="images/Rectangle8.png" uk-img></div>
-                </div>
-            </div>
             <div class="uk-width-expand">
                 <div class="item__24">
                     <h3 class="uk-h3 home__title">Bài học 1 thầy kèm 1 trò trong hơn 150 ngôn ngữ</h3>
@@ -321,6 +309,18 @@
                     <p class="home__cauhoi__desc">Tìm giáo viên từ trên khắp thế giới chia sẻ ngôn ngữ, tiếng địa phương và văn hóa của họ</p>
                     <p class="home__cauhoi__desc">Học theo nhịp điệu của bạn mà không cần lo lắng gì về những lịch trình cứng nhắc và học phí cố định</p>
                     <div><a href="" class="home__bg__link">Trở thành giáo viên</a></div>
+                </div>
+            </div>
+            <div class="uk-width-auto@m">
+                <div class="uk-position-relative uk-visible@m">
+                    <div class="uk-cover-container home__bg__box1">
+                        <canvas width="506" height="477"></canvas>
+                    </div>
+                    <img class="home__bg__img" src="images/Rectangle8.png" alt="">
+                </div>
+                <div class="uk-hidden@m uk-position-relative home__block01__box3">
+                    <div class="uk-cover-container home__block01__box1 uk-display-inline-block"></div>
+                    <div class="home__block01__box2 uk-background-norepeat uk-background-cover uk-background-center-center" data-src="images/Rectangle8.png" uk-img></div>
                 </div>
             </div>
         </div>
