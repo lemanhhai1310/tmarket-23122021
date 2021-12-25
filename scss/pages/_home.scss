@@ -276,14 +276,19 @@
       background: #FFFFFF;
       box-shadow: 0px 4px 20px 5px rgba(0, 0, 0, 0.05);
       border-radius: 10px;
-      max-width: 250px;
+      //max-width: 250px;
       @include media-breakpoint-up('m'){
-        max-width: inherit;
+        //max-width: inherit;
       }
       &__txt{
         color: #000000;
         @extend .fz-18;
         line-height: (22/18);
+      }
+      &__body{
+        padding: 7px;
+        @include media-breakpoint-up('m'){
+          padding: 15px;}
       }
     }
     &__overFlow{

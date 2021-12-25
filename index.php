@@ -17,7 +17,7 @@
         <div class="uk-width-1-1 uk-section">
             <div class="uk-container">
                 <div uk-grid>
-                    <div class="uk-width-2-5@m">
+                    <div class="uk-width-2-5@m uk-width-2-3">
                         <div class="item__46">
                             <div class="item__38">
                                 <div class="home__banner__title">Teach children English online</div>
@@ -207,7 +207,7 @@
         </div>
     </div>
     <div class="item__47">
-        <div class="uk-container uk-padding-remove">
+        <div class="uk-container uk-padding-remove" hidden>
             <div class="home__muonhoc__overFlow">
                 <div class="uk-child-width-1-4@m uk-child-width-auto uk-flex-nowrap uk-grid-match home__muonhoc__grid uk-grid-40-m uk-grid-small" uk-grid>
                     <?php
@@ -249,6 +249,48 @@
                     </div>
                     <?php endforeach; ?>
                 </div>
+            </div>
+        </div>
+        <div class="uk-container">
+            <div class="uk-child-width-1-4@m uk-child-width-1-2 uk-grid-match uk-grid-40-m uk-grid-small" uk-grid>
+                <?php
+                $data = array(
+                    array(
+                        'src' => 'images/img1.png',
+                        'txt' => 'Tiếng anh giao tiếp trẻ em',
+                    ),
+                    array(
+                        'src' => 'images/img2.png',
+                        'txt' => 'Tiếng anh giao tiếp người lớn',
+                    ),
+                    array(
+                        'src' => 'images/img3.png',
+                        'txt' => 'Tiếng anh giao tiếp văn phòng',
+                    ),
+                    array(
+                        'src' => 'images/img4.png',
+                        'txt' => 'Khóa học phát âm',
+                    ),
+                );
+                foreach ($data as $item): ?>
+                    <div class="">
+                        <div class="uk-card uk-card-default home__muonhoc__card">
+                            <div class="uk-grid-collapse uk-grid-match" uk-grid>
+                                <div class="uk-width-auto">
+                                    <div class="uk-cover-container">
+                                        <img src="<?= $item['src'] ?>" alt="" uk-cover="">
+                                        <canvas width="75" height="75"></canvas>
+                                    </div>
+                                </div>
+                                <div class="uk-width-expand">
+                                    <div class="uk-padding-small home__muonhoc__card__body">
+                                        <div class="home__muonhoc__card__txt"><?= $item['txt'] ?></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                <?php endforeach; ?>
             </div>
         </div>
     </div>
