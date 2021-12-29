@@ -55,7 +55,7 @@
                             </div>
                         </div>
                         <div class="item__53">
-                            <div class="uk-text-center dangnhap__txt1">Chưa có tài khoản? <a href="" class="dangnhap__link dangnhap__link--underline">Đăng ký</a></div>
+                            <div class="uk-text-center dangnhap__txt1">Chưa có tài khoản? <a href="dangky.php" class="dangnhap__link dangnhap__link--underline">Đăng ký</a></div>
                         </div>
                     </div>
                 </div>

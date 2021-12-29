@@ -85,7 +85,7 @@
                 <a href="dangnhap.php" class="uk-navbar-item header__acc uk-visible@m">
                     Đăng nhập
                 </a>
-                <a class="uk-navbar-item header__acc uk-visible@m">
+                <a href="dangky.php" class="uk-navbar-item header__acc uk-visible@m">
                     Đăng ký
                 </a>
                 <a href="" class="uk-navbar-item uk-hidden@m">
