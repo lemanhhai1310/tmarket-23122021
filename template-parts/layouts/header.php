@@ -27,7 +27,7 @@
         <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
 
             <div class="uk-navbar-left">
-                <a href="" class="uk-navbar-item uk-logo"><img src="images/logo-market2.png" alt=""></a>
+                <a href="." class="uk-navbar-item uk-logo"><img src="images/logo-market2.png" alt=""></a>
             </div>
 
             <div class="uk-navbar-right">
@@ -82,7 +82,7 @@
                         </div>
                     </div>
                 </div>
-                <a class="uk-navbar-item header__acc uk-visible@m">
+                <a href="dangnhap.php" class="uk-navbar-item header__acc uk-visible@m">
                     Đăng nhập
                 </a>
                 <a class="uk-navbar-item header__acc uk-visible@m">
