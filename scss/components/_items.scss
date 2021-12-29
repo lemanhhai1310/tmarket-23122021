@@ -29,6 +29,12 @@
   &__#{$x}{
     &:nth-child(n+2){
       margin-top: #{$x}px;
+      .dangnhap__card &{
+        margin-top: 30px;
+        @include media-breakpoint-up('m'){
+          margin-top: #{$x}px;
+        }
+      }
     }
   }
   $x:47;
@@ -117,6 +123,12 @@
       margin-top: #{$x}px;
     }
   }
+  $x:27;
+  &__#{$x}{
+    &:nth-child(n+2){
+      margin-top: #{$x}px;
+    }
+  }
   &__24{
     &:nth-child(n+2){
       margin-top: 24px;
@@ -147,6 +159,12 @@
   &__9{
     &:nth-child(n+2){
       margin-top: 9px;
+    }
+  }
+  $x:8;
+  &__#{$x}{
+    &:nth-child(n+2){
+      margin-top: #{$x}px;
     }
   }
   &__7{
