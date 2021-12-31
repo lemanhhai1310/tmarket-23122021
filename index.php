@@ -109,7 +109,7 @@
                             <div class="item__14">
                                 <div class="uk-grid-small uk-child-width-auto uk-flex-center" uk-grid>
                                     <div>
-                                        <a href="" class="uk-button uk-button-default home__block02__btn home__block02__btn--c1"><span>Xem chi tiết </span></a>
+                                        <a href="huongdan.php" class="uk-button uk-button-default home__block02__btn home__block02__btn--c1"><span>Xem chi tiết </span></a>
                                     </div>
                                     <div>
                                         <a href="#modal-media-youtube" uk-toggle class="uk-button uk-button-primary home__block02__btn home__block02__btn--c2"><span>Xem video</span></a>
@@ -131,7 +131,7 @@
                             <div class="item__14">
                                 <div class="uk-grid-small uk-child-width-auto uk-flex-center" uk-grid>
                                     <div>
-                                        <a href="" class="uk-button uk-button-default home__block02__btn home__block02__btn--c1"><span>Xem chi tiết </span></a>
+                                        <a href="huongdan.php" class="uk-button uk-button-default home__block02__btn home__block02__btn--c1"><span>Xem chi tiết </span></a>
                                     </div>
                                     <div>
                                         <a href="#modal-media-youtube" uk-toggle class="uk-button uk-button-primary home__block02__btn home__block02__btn--c2"><span>Xem video</span></a>
