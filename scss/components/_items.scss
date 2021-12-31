@@ -37,6 +37,12 @@
       }
     }
   }
+  $x:50;
+  &__#{$x}{
+    &:nth-child(n+2){
+      margin-top: #{$x}px;
+    }
+  }
   $x:47;
   &__#{$x}{
     &:nth-child(n+2){
@@ -146,6 +152,12 @@
     }
   }
   $x:14;
+  &__#{$x}{
+    &:nth-child(n+2){
+      margin-top: #{$x}px;
+    }
+  }
+  $x:12;
   &__#{$x}{
     &:nth-child(n+2){
       margin-top: #{$x}px;
