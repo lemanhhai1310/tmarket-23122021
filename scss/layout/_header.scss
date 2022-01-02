@@ -4,6 +4,11 @@
   }
   &.uk-sticky-below{
     box-shadow: 0 5px 15px rgba(0,0,0,.08);
+    .timgiaovien &{
+      @include media-breakpoint-up('m'){
+        box-shadow: none;
+      }
+    }
   }
   .uk-logo{
     img{

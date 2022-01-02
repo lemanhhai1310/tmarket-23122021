@@ -140,7 +140,19 @@
       margin-top: 24px;
     }
   }
+  $x:23;
+  &__#{$x}{
+    &:nth-child(n+2){
+      margin-top: #{$x}px;
+    }
+  }
   $x:20;
+  &__#{$x}{
+    &:nth-child(n+2){
+      margin-top: #{$x}px;
+    }
+  }
+  $x:18;
   &__#{$x}{
     &:nth-child(n+2){
       margin-top: #{$x}px;

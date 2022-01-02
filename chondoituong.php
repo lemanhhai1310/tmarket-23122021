@@ -1,4 +1,5 @@
 <?php $data["title"] = "Chọn đối tượng"; ?>
+<?php $body = '' ?>
 <?php require "template-parts/layouts/header.php"; ?>
 <!--Cảm thấy yêu mến việc học,Chiến thắng được 3 tháng bài học!-->
 <?php require "template-parts/layouts/block01.php"; ?>
