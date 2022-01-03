@@ -93,6 +93,12 @@
       }
     }
   }
+  &__ketquasearch{
+    &__txt{
+      color: #878787;
+      @extend .fz-16;
+    }
+  }
   &__section2{
     &__loadMoreBtn{
       background: #6EB54D;

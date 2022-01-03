@@ -12,6 +12,19 @@
       }
     }
   }
+  $x:94;
+  &__#{$x}{
+    &:nth-child(n+2){
+      margin-top: #{$x}px;
+
+      .timgiaovien__ketquasearch &{
+        margin-top: 30px;
+        @include media-breakpoint-up('m'){
+          margin-top: #{$x}px;
+        }
+      }
+    }
+  }
   $x:60;
   &__#{$x}{
     &:nth-child(n+2){
