@@ -1,3 +1,4 @@
+<?php if (!isset($hidden)): ?>
 <!--footer-->
 <div class="footer" data-src="images/bg_footer.png" uk-img>
     <div class="footer__top uk-section-small">
@@ -118,6 +119,7 @@
     </div>
 </div>
 <!--/footer-->
+<?php endif; ?>
 </div>
 <!--/app-->
 </body>

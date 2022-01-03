@@ -24,6 +24,7 @@
 <?php require "template-parts/commons/facebook_chat.php"; ?>
 <!--app-->
 <div id="app" class="uk-height-viewport uk-offcanvas-content uk-overflow-hidden uk-position-relative">
+<?php if (!isset($hidden)): ?>
 <div class="header uk-background-default" uk-sticky>
     <div class="uk-container uk-padding-remove">
         <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
@@ -99,3 +100,4 @@
         </nav>
     </div>
 </div>
+<?php endif; ?>

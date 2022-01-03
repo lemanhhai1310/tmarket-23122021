@@ -28,6 +28,7 @@
     }
     &__input{
       height: #{$x} !important;
+      background-color: #fff !important;
       &:not(:focus){
         border-color: #AEAEAE !important;
       }
@@ -52,6 +53,9 @@
         padding: 15px 10px;
         &:nth-child(n+2){
           border-top: 1px solid #EBEBEB;
+          .loc_mb__section &{
+            border-color: #C4C4C4;
+          }
         }
       }
       &__linkMore{
