@@ -32,6 +32,9 @@
                     </label>
                 </div>
             <?php endfor; ?>
+            <div class="timgiaovien__section1__dropdown__item uk-text-center">
+                <a href="" class="timgiaovien__section1__dropdown__linkMore">Hiển thị thêm</a>
+            </div>
         </div>
     </div>
     <div class="loc_mb__section__box2 uk-section-xsmall">
