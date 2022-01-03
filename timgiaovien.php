@@ -174,6 +174,7 @@
         </div>
     </div>
 </div>
+<div class="uk-overlay uk-overlay-primary mask_menu"></div>
 <!--Cảm thấy yêu mến việc học,Chiến thắng được 3 tháng bài học!-->
 <?php require "template-parts/layouts/block01.php"; ?>
 <!--/Cảm thấy yêu mến việc học,Chiến thắng được 3 tháng bài học!-->
@@ -256,12 +257,28 @@
                                             <div class="timgiaovien__section2__giaovienRight__divider"></div>
                                         </div>
                                         <div class="item__14">
-                                            <div class="uk-grid-8 uk-child-width-auto" uk-grid>
-                                                <div>
-                                                    <div class="timgiaovien__section2__giaovienRight__txt">5.0</div>
+                                            <div class="uk-grid-8 uk-child-width-auto uk-flex-middle" uk-grid>
+                                                <div class="uk-flex uk-flex-middle">
+                                                    <span class="timgiaovien__section2__giaovienRight__txt" style="position:relative;top: 3px;">5.0</span>
                                                 </div>
                                                 <div>
-
+                                                    <div class="uk-grid-5 uk-child-width-auto uk-flex-top" uk-grid>
+                                                        <div>
+                                                            <img src="images/star.png" alt="">
+                                                        </div>
+                                                        <div>
+                                                            <img src="images/star.png" alt="">
+                                                        </div>
+                                                        <div>
+                                                            <img src="images/star.png" alt="">
+                                                        </div>
+                                                        <div>
+                                                            <img src="images/star.png" alt="">
+                                                        </div>
+                                                        <div>
+                                                            <img src="images/star.png" alt="">
+                                                        </div>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>

@@ -20,18 +20,7 @@ $(window).on('load', function () {
         result +=   '<div>to_percent: ' + data.to_percent.toFixed(2) + '</div>';
         result +=   '<div>to_value: ' + data.to_value + '</div>';
 
-        var html = '<div class="uk-grid-10 uk-flex-middle" uk-grid>\n' +
-            '                <div class="uk-width-expand">\n' +
-            '                    <input class="uk-input boloc__inputRange" type="text" placeholder="" value=' + data.from + '>\n' +
-            '                </div>\n' +
-            '                <div class="uk-width-auto">\n' +
-            '                    <span>-</span>\n' +
-            '                </div>\n' +
-            '                <div class="uk-width-expand">\n' +
-            '                    <input class="uk-input boloc__inputRange" type="text" placeholder="" value=' + data.to + '>\n' +
-            '                </div>\n' +
-            '            </div>'
-        var html1 = '<div class="uk-grid-small uk-flex-middle" uk-grid>\n' +
+        var html = '<div class="uk-grid-small uk-flex-middle" uk-grid>\n' +
             '                                <div class="uk-width-expand">\n' +
             '                                    <div class="timgiaovien__section1__dropdown__label">' + data.from + ' Vnđ</div>\n' +
             '                                </div>\n' +
@@ -40,7 +29,7 @@ $(window).on('load', function () {
             '                                </div>\n' +
             '                            </div>'
 
-        $output.html(html1);
+        $output.html(html);
     }
     var $output1 = $(".js-output__d1");
     $(".js-range-slider").ionRangeSlider({
@@ -66,5 +55,15 @@ $(window).on('load', function () {
             output(data, $output1);
             // console.log('onUpdate');
         }
+    });
+
+    UIkit.util.on('.timgiaovien__section1__dropdown', 'show', function () {
+        // do something
+        $('.mask_menu').fadeIn(300);
+    });
+
+    UIkit.util.on('.timgiaovien__section1__dropdown', 'hide', function () {
+        // do something
+        $('.mask_menu').stop(true, true).fadeOut(300);
     });
 });
