@@ -238,10 +238,10 @@
                                     </div>
                                     <div class="item__10">
                                         <div class="item__9">
-                                            <a href="" class="uk-button uk-button-primary timgiaovien__section2__giaovienLeft__btn"><span>Đăng ký</span></a>
+                                            <a href="chitietgiaovien.php" class="uk-button uk-button-primary timgiaovien__section2__giaovienLeft__btn"><span>Đăng ký</span></a>
                                         </div>
                                         <div class="item__9 uk-hidden@m">
-                                            <a href="" class="timgiaovien__section2__giaovienRight__linkhocthu">Học thử ngay</a>
+                                            <a href="chitietgiaovien.php" class="timgiaovien__section2__giaovienRight__linkhocthu">Học thử ngay</a>
                                         </div>
                                     </div>
                                 </div>
@@ -300,7 +300,7 @@
                                         </div>
                                     </div>
                                     <div class="item__18 uk-visible@m">
-                                        <a href="" class="timgiaovien__section2__giaovienRight__linkhocthu">Học thử ngay</a>
+                                        <a href="chitietgiaovien.php" class="timgiaovien__section2__giaovienRight__linkhocthu">Học thử ngay</a>
                                     </div>
                                 </div>
                             </div>

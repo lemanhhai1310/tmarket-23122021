@@ -1,0 +1,8 @@
+.chitietgiaovien{
+  &__section{
+    padding-top: 20px;
+    @include media-breakpoint-up('m'){
+      padding-bottom: 74px;
+    }
+  }
+}
