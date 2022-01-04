@@ -57,12 +57,12 @@ $(window).on('load', function () {
         }
     });
 
-    UIkit.util.on('.timgiaovien__section1__dropdown', 'show', function () {
+    UIkit.util.on('.timgiaovien__section1__dropdown,.header__lang__dropdown', 'show', function () {
         // do something
         $('.mask_menu').fadeIn(300);
     });
 
-    UIkit.util.on('.timgiaovien__section1__dropdown', 'hide', function () {
+    UIkit.util.on('.timgiaovien__section1__dropdown,.header__lang__dropdown', 'hide', function () {
         // do something
         $('.mask_menu').stop(true, true).fadeOut(300);
     });

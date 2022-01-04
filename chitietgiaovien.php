@@ -180,7 +180,68 @@
 <!--/Cảm thấy yêu mến việc học,Chiến thắng được 3 tháng bài học!-->
 <div class="uk-section-xsmall timgiaovien__section2 chitietgiaovien__section">
     <div class="uk-container">
+        <div class="uk-grid-10" uk-grid>
+            <div class="uk-width-expand">
+                <div class="item__15">
+                    <div class="uk-cover-container chitietgiaovien__section__boxVideo">
+                        <iframe class="" src="https://www.youtube-nocookie.com/embed/c2pz2mlSfXA?autoplay=0&amp;showinfo=0&amp;rel=0&amp;modestbranding=1&amp;playsinline=1" width="1480" height="610" frameborder="0" allowfullscreen uk-responsive uk-video="automute: true"></iframe>
+                    </div>
+                </div>
+                <div class="item__15">
+                    <div class="uk-card uk-card-default chitietgiaovien__section__card1">
+                        <div class="chitietgiaovien__section__card1__header">
+                            <div class="uk-grid-20-m uk-grid-small" uk-grid uk-toggle="cls: uk-flex-middle; mode: media; media: (max-width: 959.8px)">
+                                <div class="uk-width-auto">
+                                    <div class="uk-cover-container uk-border-circle">
+                                        <img src="images/lemanhhai_anhthe.jpg" alt="" uk-cover="">
+                                        <canvas width="140" height="140"></canvas>
+                                    </div>
+                                </div>
+                                <div class="uk-width-expand">
+                                    <div class="uk-grid-10" uk-grid>
+                                        <div class="uk-width-expand">
+                                            <h1 class="uk-h1 chitietgiaovien__section__card1__name">Trương HUyền</h1>
+                                            <div class="chitietgiaovien__section__card1__giaovien">Giáo viên chuyên nghiệp</div>
+                                        </div>
+                                        <div class="uk-width-auto@m">
+                                            <div class="uk-grid-10 uk-flex-middle uk-grid-15-m" uk-grid>
+                                                <div class="uk-width-expand">
+                                                    <a href="" class="chitietgiaovien__section__card1__btnrate uk-button uk-button-default uk-button-small"><span>Viết đánh giá</span></a>
+                                                </div>
+                                                <div class="uk-width-auto">
+                                                    <a href="" class="chitietgiaovien__section__card1__iconshare"></a>
+                                                </div>
+                                                <div class="uk-width-auto">
+                                                    <a href="" class="chitietgiaovien__section__card1__iconwishlist"></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="uk-child-width-1-3@m" uk-grid>
+                                        <div>
+                                            <div>Tổng thời gian giảng dạy</div>
+                                            <div>15 000 h</div>
+                                        </div>
+                                        <div>
 
+                                        </div>
+                                        <div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="chitietgiaovien__section__card1__body">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="uk-width-1-3@m">
+
+            </div>
+        </div>
     </div>
 </div>
 <?php require "template-parts/layouts/footer.php"; ?>
