@@ -101,3 +101,4 @@
     </div>
 </div>
 <?php endif; ?>
+<div class="uk-overlay uk-overlay-primary mask_menu"></div>
