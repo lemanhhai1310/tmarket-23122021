@@ -35,7 +35,7 @@
 #rating > input:checked ~ label,
 #rating:not(:checked) > label:hover,
 #rating:not(:checked) > label:hover ~ label {
-  color: #FFD700;
+  color: #FB9A2B;
 }
 
 /* Hover vào các sao phía trước ngôi sao đã chọn*/
@@ -43,5 +43,5 @@
 #rating > input:checked ~ label:hover,
 #rating > label:hover ~ input:checked ~ label,
 #rating > input:checked ~ label:hover ~ label {
-  color: #FFED85;
+  color: #FB9A2B;
 }

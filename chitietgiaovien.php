@@ -799,7 +799,7 @@
                     <div class="uk-margin">
                         <label class="uk-form-label modal__danhgia__label" for="form-stacked-text">Nội dung đánh giá</label>
                         <div class="uk-form-controls">
-                            <textarea class="uk-textarea modal__danhgia__input" rows="5" placeholder="Nhập nội dung"></textarea>
+                            <textarea class="uk-textarea modal__danhgia__input" rows="8" placeholder="Nhập nội dung"></textarea>
                         </div>
                     </div>
                     <div class="uk-text-center">
