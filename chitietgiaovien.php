@@ -42,7 +42,7 @@
                                                 <div class="uk-width-auto@m">
                                                     <div class="uk-grid-10 uk-flex-middle uk-grid-15-m" uk-grid>
                                                         <div class="uk-width-expand">
-                                                            <a href="" class="chitietgiaovien__section__card1__btnrate uk-button uk-button-default uk-button-small"><span>Viết đánh giá</span></a>
+                                                            <a href="#modal-vietdanhgia-close-outside" uk-toggle class="chitietgiaovien__section__card1__btnrate uk-button uk-button-default uk-button-small"><span>Viết đánh giá</span></a>
                                                         </div>
                                                         <div class="uk-width-auto">
                                                             <a href="" class="chitietgiaovien__section__card1__iconshare"></a>
@@ -812,7 +812,7 @@
 </div>
 <!--/Modal Viết đánh giá-->
 <script>
-    UIkit.modal('#modal-vietdanhgia-close-outside').show();
+    // UIkit.modal('#modal-vietdanhgia-close-outside').show();
 </script>
 
 <div id="offcanvas-overlay" uk-offcanvas="overlay: true">
