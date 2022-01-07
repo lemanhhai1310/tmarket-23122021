@@ -122,5 +122,6 @@
 <?php endif; ?>
 </div>
 <!--/app-->
+<div class="uk-overlay uk-overlay-primary mask_menu"></div>
 </body>
 </html>

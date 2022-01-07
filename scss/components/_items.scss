@@ -148,6 +148,12 @@
       margin-top: #{$x}px;
     }
   }
+  $x:26;
+  &__#{$x}{
+    &:nth-child(n+2){
+      margin-top: #{$x}px;
+    }
+  }
   &__24{
     &:nth-child(n+2){
       margin-top: 24px;
