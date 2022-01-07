@@ -812,7 +812,7 @@
 </div>
 <!--/Modal Viết đánh giá-->
 <script>
-    // UIkit.modal('#modal-vietdanhgia-close-outside').show();
+    UIkit.modal('#modal-khoahoc-close-outside').show();
 </script>
 
 <div id="offcanvas-overlay" uk-offcanvas="overlay: true">

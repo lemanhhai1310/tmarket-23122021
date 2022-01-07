@@ -38,8 +38,15 @@
       top: 11px;
       right: 9px;
     }
-    width: 34px;
-    height: 34px;
+    $x:28px;
+    width: #{$x};
+    height: #{$x};
+    background-size: contain;
+    @include media-breakpoint-up('m'){
+      $x:34px;
+      width: #{$x};
+      height: #{$x};
+    }
     padding: 0;
     background-position: center;
     background-repeat: no-repeat;
