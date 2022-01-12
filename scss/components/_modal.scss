@@ -34,9 +34,10 @@
     &.uk-modal-close-outside{
       transform: translate(50%,-50%);
     }
-    &.uk-offcanvas-close{
-      top: 11px;
-      right: 9px;
+    .datlich &{
+      position: relative;
+      top: 0;
+      right: 0;
     }
     $x:28px;
     width: #{$x};

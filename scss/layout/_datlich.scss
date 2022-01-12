@@ -17,4 +17,19 @@
       }
     }
   }
+  &__header{
+    border-bottom: 1px solid #EBEBEB;
+    .uk-container{
+      max-width: calc(1200px + 30px);
+    }
+  }
+  &__body{
+
+  }
+  &__footer{
+    border-top: 1px solid #EBEBEB;
+    .uk-container{
+      max-width: calc(1200px + 30px);
+    }
+  }
 }

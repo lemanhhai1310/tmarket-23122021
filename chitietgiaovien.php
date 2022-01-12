@@ -812,28 +812,85 @@
 </div>
 <!--/Modal Viết đánh giá-->
 <script>
-    UIkit.modal('#modal-khoahoc-close-outside').show();
+    // UIkit.modal('#modal-khoahoc-close-outside').show();
 </script>
 
-<div id="offcanvas-overlay" uk-offcanvas="overlay: true">
+<div id="offcanvas-overlay" class="datlich" uk-offcanvas="overlay: true">
     <div class="uk-offcanvas-bar datlich__offcanvas-bar uk-flex uk-flex-column">
-        <button class="uk-offcanvas-close modal__close" type="button" uk-close></button>
-        <div class="uk-section-xsmall">
+        <nav class="datlich__header uk-navbar-container" uk-navbar>
+            <div class="uk-navbar-center">
+                <div class="uk-navbar-item">
+                    <div>Chọn khoá học </div>
+                </div>
+            </div>
+            <div class="uk-navbar-right">
+                <div class="uk-navbar-item">
+                    <button class="uk-offcanvas-close modal__close" type="button" uk-close></button>
+                </div>
+            </div>
+        </nav>
+        <div class="datlich__body uk-section-small uk-flex-auto uk-overflow-auto">
             <div class="uk-container">
-                1
+                <?php for ($i=0;$i<=3;$i++): ?>
+                    <div class="chitietgiaovien__section__card1__khoahoc__box1 uk-flex uk-flex-middle">
+                        <div class="uk-width-1-1">
+                            <div class="uk-grid-small uk-flex-middle" uk-grid>
+                                <div class="uk-width-expand">
+                                    <div class="chitietgiaovien__section__card1__giaovien">Conversation English lesson</div>
+                                    <div class="chitietgiaovien__section__card1__txt4">12 bài học</div>
+                                </div>
+                                <div class="uk-width-auto@m">
+                                    <div class="uk-child-width-1-2 uk-child-width-auto@m uk-grid-10 uk-grid-13-m" uk-grid>
+                                        <div>
+                                            <div class="uk-card uk-card-default uk-card-body chitietgiaovien__section__card1__khoahoc__box2">
+                                                <div class="chitietgiaovien__section__card1__khoahoc__box2__txt1">Học thử</div>
+                                                <div class="chitietgiaovien__section__card1__khoahoc__box2__txt2">500.000 vnđ</div>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <div class="uk-card uk-card-primary uk-card-body chitietgiaovien__section__card1__khoahoc__box2">
+                                                <div class="chitietgiaovien__section__card1__khoahoc__box2__txt1">Bài học</div>
+                                                <div class="chitietgiaovien__section__card1__khoahoc__box2__txt2">1.500.000 vnđ</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                <?php endfor; ?>
             </div>
         </div>
-        <div class="uk-section uk-flex-auto uk-background-muted">
-
-        </div>
-        <div class="uk-section-xsmall">
-            <div class="uk-container">
-                2
+        <div class="datlich__footer">
+            <div class="uk-container uk-padding-remove">
+                <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
+                    <div class="uk-navbar-left">
+                        <div class="uk-navbar-item">
+                            <div class="uk-grid-10 uk-flex-middle" uk-grid>
+                                <div class="uk-width-auto">
+                                    <div class="uk-cover-container uk-border-circle uk-flex">
+                                        <img src="images/lemanhhai_anhthe.jpg" alt="" uk-cover="">
+                                        <canvas width="60" height="60"></canvas>
+                                    </div>
+                                </div>
+                                <div class="uk-width-expand">
+                                    <div class="item__2">Trương HUyền</div>
+                                    <div class="item__2">Giáo viên chuyên nghiệp</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="uk-navbar-right">
+                        <div class="uk-navbar-item">
+                            <button class="chitietgiaovien__section__card1__sidebar__btn chitietgiaovien__section__card1__sidebar__btn--primary uk-button uk-button-primary"><span>Tiếp theo</span></button>
+                        </div>
+                    </div>
+                </nav>
             </div>
         </div>
     </div>
 </div>
 <script>
-    // UIkit.offcanvas('#offcanvas-overlay').show();
+    UIkit.offcanvas('#offcanvas-overlay').show();
 </script>
 <?php require "template-parts/layouts/footer.php"; ?>
