@@ -83,7 +83,7 @@
         <div class="uk-card uk-card-default chitietgiaovien__section__card1">
             <div class="chitietgiaovien__section__card1__header">
                 <div class="chitietgiaovien__section__card1__sidebar__item">
-                    <a href="#offcanvas-overlay" uk-toggle class="chitietgiaovien__section__card1__sidebar__btn chitietgiaovien__section__card1__sidebar__btn--primary uk-button uk-button-primary uk-width-1-1"><span>Đặt lịch học</span></a>
+                    <a href="#offcanvas-overlay-datlich" uk-toggle class="chitietgiaovien__section__card1__sidebar__btn chitietgiaovien__section__card1__sidebar__btn--primary uk-button uk-button-primary uk-width-1-1"><span>Đặt lịch học</span></a>
                 </div>
                 <div class="chitietgiaovien__section__card1__sidebar__item">
                     <a href="" class="chitietgiaovien__section__card1__sidebar__btn chitietgiaovien__section__card1__sidebar__btn--default uk-button uk-button-default uk-width-1-1"><span>Học thử</span></a>

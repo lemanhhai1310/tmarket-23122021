@@ -90,6 +90,11 @@
           &--primary{
             background: #65AF54;
             border: 1px solid #AEAEAE;
+            .datlich &{
+              background: #65AF54;
+              border: 1px solid #AEAEAE;
+              color: #FFFFFF;
+            }
             @include media-breakpoint-up('m'){
               min-width: 242px;
             }

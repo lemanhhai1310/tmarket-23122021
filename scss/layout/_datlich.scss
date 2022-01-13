@@ -32,4 +32,40 @@
       max-width: calc(1200px + 30px);
     }
   }
+  &__title{
+    color: #000000;
+    @extend .fz-18;
+    line-height: (22/18);
+    font-family: $Lexend-Medium;
+  }
+  &__name{
+    text-transform: uppercase;
+    @extend .fz-16;
+    line-height: (20/16);
+    color: #000000;
+    font-family: $Lexend-Medium;
+  }
+  &__chucvu{
+    color: #000000;
+    @extend .fz-16;
+    line-height: (20/16);
+  }
+  &__boxStep{
+    bottom: -4px;
+    ul{
+      li{
+        &.uk-active{
+          background: #F0BA45;
+        }
+        height: 7px;
+        background: #C4C4C4;
+        $x:3px;
+        clip-path: polygon(0 0, calc(100% - #{$x}) 0, 100% 50%, calc(100% - #{$x}) 100%, 0 100%, #{$x} 50%);
+        @include media-breakpoint-up('m'){
+          width: 115px;
+          flex: inherit !important;
+        }
+      }
+    }
+  }
 }

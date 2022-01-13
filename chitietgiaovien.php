@@ -815,18 +815,26 @@
     // UIkit.modal('#modal-khoahoc-close-outside').show();
 </script>
 
-<div id="offcanvas-overlay" class="datlich" uk-offcanvas="overlay: true">
+<div id="offcanvas-overlay-datlich" class="datlich" uk-offcanvas="overlay: true">
     <div class="uk-offcanvas-bar datlich__offcanvas-bar uk-flex uk-flex-column">
         <nav class="datlich__header uk-navbar-container" uk-navbar>
             <div class="uk-navbar-center">
                 <div class="uk-navbar-item">
-                    <div>Chọn khoá học </div>
+                    <div class="datlich__title">Chọn khoá học </div>
                 </div>
             </div>
             <div class="uk-navbar-right">
                 <div class="uk-navbar-item">
                     <button class="uk-offcanvas-close modal__close" type="button" uk-close></button>
                 </div>
+            </div>
+            <div class="uk-position-bottom datlich__boxStep uk-container">
+                <ul class="uk-child-width-expand uk-child-width-auto@m uk-grid-collapse uk-flex-center" uk-grid>
+                    <li class="uk-active"></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
             </div>
         </nav>
         <div class="datlich__body uk-section-small uk-flex-auto uk-overflow-auto">
@@ -865,7 +873,7 @@
             <div class="uk-container uk-padding-remove">
                 <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
                     <div class="uk-navbar-left">
-                        <div class="uk-navbar-item">
+                        <div class="uk-navbar-item uk-visible@m">
                             <div class="uk-grid-10 uk-flex-middle" uk-grid>
                                 <div class="uk-width-auto">
                                     <div class="uk-cover-container uk-border-circle uk-flex">
@@ -874,8 +882,8 @@
                                     </div>
                                 </div>
                                 <div class="uk-width-expand">
-                                    <div class="item__2">Trương HUyền</div>
-                                    <div class="item__2">Giáo viên chuyên nghiệp</div>
+                                    <div class="item__2 datlich__name">Trương HUyền</div>
+                                    <div class="item__2 datlich__chucvu">Giáo viên chuyên nghiệp</div>
                                 </div>
                             </div>
                         </div>
@@ -891,6 +899,6 @@
     </div>
 </div>
 <script>
-    UIkit.offcanvas('#offcanvas-overlay').show();
+    UIkit.offcanvas('#offcanvas-overlay-datlich').show();
 </script>
 <?php require "template-parts/layouts/footer.php"; ?>
