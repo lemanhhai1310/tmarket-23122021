@@ -696,7 +696,7 @@
             </div>
         </div>
         <div class="uk-section-xsmall uk-text-center">
-            <a href="#offcanvas-overlay" uk-toggle class="chitietgiaovien__section__card1__sidebar__btn chitietgiaovien__section__card1__sidebar__btn--primary uk-button uk-button-primary"><span>Đặt lịch học</span></a>
+            <a href="#offcanvas-overlay-datlich" uk-toggle class="chitietgiaovien__section__card1__sidebar__btn chitietgiaovien__section__card1__sidebar__btn--primary uk-button uk-button-primary"><span>Đặt lịch học</span></a>
         </div>
     </div>
 </div>
@@ -815,6 +815,7 @@
     // UIkit.modal('#modal-khoahoc-close-outside').show();
 </script>
 
+<!--Đặt lịch học-->
 <div id="offcanvas-overlay-datlich" class="datlich" uk-offcanvas="overlay: true">
     <div class="uk-offcanvas-bar datlich__offcanvas-bar uk-flex uk-flex-column">
         <nav class="datlich__header uk-navbar-container" uk-navbar>
@@ -873,7 +874,7 @@
             <div class="uk-container uk-padding-remove">
                 <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
                     <div class="uk-navbar-left">
-                        <div class="uk-navbar-item uk-visible@m">
+                        <div class="datlich__itemStep uk-navbar-item uk-visible@m">
                             <div class="uk-grid-10 uk-flex-middle" uk-grid>
                                 <div class="uk-width-auto">
                                     <div class="uk-cover-container uk-border-circle uk-flex">
@@ -890,6 +891,81 @@
                     </div>
                     <div class="uk-navbar-right">
                         <div class="uk-navbar-item">
+                            <button uk-toggle="#offcanvas-overlay-luachonkhoahoc" class="chitietgiaovien__section__card1__sidebar__btn chitietgiaovien__section__card1__sidebar__btn--primary uk-button uk-button-primary"><span>Tiếp theo</span></button>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+</div>
+<!--/Đặt lịch học-->
+
+<!--Lựa chọn trong khoá học-->
+<div id="offcanvas-overlay-luachonkhoahoc" class="datlich" uk-offcanvas="overlay: true">
+    <div class="uk-offcanvas-bar datlich__offcanvas-bar uk-flex uk-flex-column">
+        <nav class="datlich__header uk-navbar-container" uk-navbar>
+            <div class="uk-navbar-center">
+                <div class="uk-navbar-item">
+                    <div class="datlich__title">Lưa chọn khoá học</div>
+                </div>
+            </div>
+            <div class="uk-navbar-right">
+                <div class="uk-navbar-item">
+                    <button class="uk-offcanvas-close modal__close" type="button" uk-close></button>
+                </div>
+            </div>
+            <div class="uk-position-bottom datlich__boxStep uk-container">
+                <ul class="uk-child-width-expand uk-child-width-auto@m uk-grid-collapse uk-flex-center" uk-grid>
+                    <li></li>
+                    <li class="uk-active"></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="datlich__body uk-flex-auto uk-overflow-auto">
+
+        </div>
+        <div class="datlich__footer">
+            <div class="uk-container uk-padding-remove">
+                <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
+                    <div class="uk-navbar-left">
+                        <div class="datlich__itemStep uk-navbar-item uk-visible@m">
+                            <div class="uk-grid-10 uk-flex-middle" uk-grid>
+                                <div class="uk-width-auto">
+                                    <div class="uk-cover-container uk-border-circle uk-flex">
+                                        <img src="images/lemanhhai_anhthe.jpg" alt="" uk-cover="">
+                                        <canvas width="60" height="60"></canvas>
+                                    </div>
+                                </div>
+                                <div class="uk-width-expand">
+                                    <div class="item__2 datlich__name">Trương HUyền</div>
+                                    <div class="item__2 datlich__chucvu">Giáo viên chuyên nghiệp</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="datlich__itemStep uk-navbar-item uk-visible@m">
+                            <div>
+                                <div class="item__4 datlich__txt1">Conversation <br> English lesson</div>
+                                <div class="item__4 datlich__txt2">12 bài học</div>
+                            </div>
+                        </div>
+                        <div class="uk-navbar-item uk-hidden@m">
+                            <div>
+                                <div class="datlich__hocphiTitle item__1">Học phí:</div>
+                                <div class="datlich__price item__1">1.500.000 vnđ</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="uk-navbar-right">
+                        <div class="uk-navbar-item uk-visible@m">
+                            <div>
+                                <div class="datlich__hocphiTitle item__1">Học phí:</div>
+                                <div class="datlich__price item__1">1.500.000 vnđ</div>
+                            </div>
+                        </div>
+                        <div class="uk-navbar-item">
                             <button class="chitietgiaovien__section__card1__sidebar__btn chitietgiaovien__section__card1__sidebar__btn--primary uk-button uk-button-primary"><span>Tiếp theo</span></button>
                         </div>
                     </div>
@@ -898,7 +974,8 @@
         </div>
     </div>
 </div>
+<!--/Lựa chọn trong khoá học-->
 <script>
-    UIkit.offcanvas('#offcanvas-overlay-datlich').show();
+    UIkit.offcanvas('#offcanvas-overlay-luachonkhoahoc').show();
 </script>
 <?php require "template-parts/layouts/footer.php"; ?>
